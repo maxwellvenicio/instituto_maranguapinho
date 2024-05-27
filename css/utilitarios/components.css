@@ -1,0 +1,85 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  background-image: linear-gradient(45deg, #FF5100 0%, #F78E5D 100%);
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color:#471802 ;
+  border: var(--cor-p2);
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-image: linear-gradient(45deg, #ff51009a 0%, #f78e5d84 100%);
+}
+
+.botao-secundario {
+  display: inline-block;
+  padding: 16px 32px;
+  background:none;
+  border-radius: 50px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  border: solid 1px var(--color-p2);
+  color: var(--color-p2);
+  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.botao-secundario:hover {
+  background-color: var(--color-p2);
+  color: var(--color-1);
+}
+
+.redes-icon {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* titulo internas */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--color-p1);
+}
+
+.titulo {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .botao {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+
+  .botao-secundario {
+    padding: 10px 20px;
+    margin-right: 10px;
+  }
+
+  .container {
+    padding: 0px 30px;
+  }
+}

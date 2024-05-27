@@ -1,0 +1,32 @@
+/*Utilitarios*/
+@import './global.css';
+@import './utilitarios/tipografy.css';
+@import './utilitarios/color.css';
+@import './utilitarios/components.css';
+
+/*Header*/
+@import './header.css';
+
+/*home*/
+@import './home/introducao.css';
+@import './home/empresa.css';
+@import './home/recursos.css';
+@import './home/depoimento.css';
+@import './home/parceiros.css';
+@import './home/avaliacoes.css';
+
+/*instituto*/
+@import './instituto/instituto.css';
+
+/*projetos*/
+@import './projetos/projetos.css';
+
+/*projetos-galeria*/
+@import './projetos/projeto-01.css';
+@import './projetos/projeto-02.css';
+@import './projetos/projeto-03.css';
+@import './projetos/projeto-04.css';
+
+
+/*Footer*/
+@import './footer.css';

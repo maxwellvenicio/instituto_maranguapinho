@@ -1,0 +1,32 @@
+.projetos-bg{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.projetos{
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.projetos img{
+  width: 500px;
+}
+
+.projetos h2 {
+  margin-bottom: 20px;
+}
+
+.projetos h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--color-p2);
+  margin-bottom: 8px;
+}
+
+.projetos p {
+  margin-bottom: 32px;
+  max-width: 60ch;
+}

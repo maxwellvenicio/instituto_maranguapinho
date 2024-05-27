@@ -1,0 +1,23 @@
+.empresa-bg {
+  padding: 70px 0px 40px 0px;
+}
+
+.empresa { 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.empresa-info {
+  margin-left: 40px;
+}
+
+.empresa h1{
+margin: 0 auto;
+}
+
+.empresa h2 {
+  margin-bottom: 15px;
+}
+.empresa p {
+  margin-bottom: 30px;
+}

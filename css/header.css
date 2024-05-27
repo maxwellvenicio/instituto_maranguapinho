@@ -1,0 +1,36 @@
+.header-bg {
+  background: var(--color-p1);
+  border-bottom: solid 2px var(--color-s1);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+
+
+}
+
+.header img {
+  max-width: 60px;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  color: var(--color-1);
+}
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header-menu a:hover {
+  color: var(--color-p3);
+}

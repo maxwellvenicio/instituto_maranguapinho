@@ -1,0 +1,17 @@
+.projeto-galeria-4-row-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.projeto-galeria-4-row-2{ 
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.projeto-galeria-4-row-1 img,.projeto-galeria-4-row-2 img {
+  object-fit: cover;
+}
