@@ -8,6 +8,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  flex-wrap: wrap;
 }
 
 .footer h3 {
@@ -57,9 +58,12 @@
 @media (max-width: 600px) {
   .footer {
     grid-template-columns: 1fr;
-    gap: 60px;
+    gap: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .footer-copy {
     margin-top: 0px;
+    grid-column: 1;
   }
 }

@@ -1,12 +1,24 @@
 .avaliacoes-bg {
   background: var(--color-p1);
-  padding: 80px;
+  padding:60px;
+  text-align: center;
+}
+
+.avaliacoes-bg h2 {
+  margin-bottom: 40px;
+}
+
+.avaliacoes-card p {
+    display: flex;
+    text-align: left;
 }
 
 .avaliacoes {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
   align-items: center;
+  justify-items: center;
 }
 
 .avaliacoes-card {
@@ -34,10 +46,40 @@
 .avaliacoes-itens {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .star-icons {
   display: flex;
   gap: 5px;
   padding-top: 10px;
+}
+
+@media (max-width: 1330px) {
+   .avaliacoes {
+    grid-template-columns: 1fr 1fr;
+   }
+}
+
+@media (max-width: 900px) {
+  .avaliacoes {
+   grid-template-columns: 1fr;
+  }
+
+  @media (max-width: 500px) {
+    .avaliacoes-bg {
+     padding: 20px;
+    }
+
+    .avaliacoes-card {
+      padding:15px ;
+     }
+
+    .avaliacoes-card {
+      background: var(--color-s1);
+      padding: 30px;
+      border-radius: 5px;
+      width: 260px;
+    }
+}
 }

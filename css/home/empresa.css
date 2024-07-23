@@ -21,3 +21,22 @@ margin: 0 auto;
 .empresa p {
   margin-bottom: 30px;
 }
+
+@media (max-width: 800px) {
+  .empresa { 
+    grid-template-columns: 1fr;
+  }
+  .empresa-img {
+    margin-bottom: 30px;
+  }
+
+  .empresa-info {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .empresa-bg {
+    padding: 40px 0px 20px 0px;
+  }
+}
