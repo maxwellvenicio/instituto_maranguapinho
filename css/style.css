@@ -10,7 +10,7 @@
 /*home*/
 @import './home/introducao.css';
 @import './home/empresa.css';
-@import './home/recursos.css';
+@import './home/card.css';
 @import './home/depoimento.css';
 @import './home/parceiros.css';
 @import './home/avaliacoes.css';
