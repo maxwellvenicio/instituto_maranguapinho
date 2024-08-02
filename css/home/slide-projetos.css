@@ -58,3 +58,19 @@
   position: absolute;
   left: 90%;
 }
+
+
+@media (max-width: 500px) {
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 5px;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+
+}

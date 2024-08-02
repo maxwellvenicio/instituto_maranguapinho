@@ -1,10 +1,10 @@
-/*Utilitarios*/
+/*utilitarios*/
 @import './global.css';
 @import './utilitarios/tipografy.css';
 @import './utilitarios/color.css';
 @import './utilitarios/components.css';
 
-/*Header*/
+/*header*/
 @import './header.css';
 
 /*home*/
@@ -28,6 +28,15 @@
 @import './projetos/projeto-03.css';
 @import './projetos/projeto-04.css';
 
+/*editais*/
+@import './editais/editais.css';
+
+/*eventos*/
+@import './eventos/eventos.css';
+
+/*contato*/
+@import './contato/contato.css';
+@import './contato/map.css';
 
 /*Footer*/
 @import './footer.css';

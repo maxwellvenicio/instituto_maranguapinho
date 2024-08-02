@@ -1,0 +1,43 @@
+ 
+.editais{
+    padding-bottom: 40px;
+}
+
+.editais:first-child{
+    padding-top: 60px;
+}
+
+.editais:last-child{
+   padding-bottom: 60px;
+}
+
+.editais h2 {
+    margin-bottom: 10px;
+    color: var(--color-5);
+}
+
+.editais-card {
+    display: flex;
+    align-items: center;
+    color: var(--color-5);
+    padding: 20px;
+    border-radius: 10px;
+    gap: 12px;
+    background-color: var(--color-2);
+    box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 7px 8px 7px -2px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.editais-card:hover {
+    cursor: pointer;
+    background: var(--color-p1);
+    color: var(--color-0);
+    transform: translateY(-5px);
+
+}       
+
+.editais-card h3 {
+    margin-bottom: 3px;
+}

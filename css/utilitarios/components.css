@@ -17,8 +17,7 @@
 
 /* titulo internas */
 .titulo-bg {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0px;
   background-color: var(--color-p1);
 }
 
@@ -49,12 +48,12 @@
 }
 
 .btn:hover{
-transition : 1000ms;
-padding: 15px 50px;
-transform : translateY(-0px);
-color: #ffffffcc;
-border: solid 1px #ffcfb7cc;
-background: linear-gradient(90deg, #e74d00 21%, #ff5500 100%);
+  transition : 1000ms;
+  padding: 15px 50px;
+  transform : translateY(-0px);
+  color: #ffffffcc;
+  border: solid 1px #ffcfb7cc;
+  background: linear-gradient(90deg, #e74d00 21%, #ff5500 100%);
 }
 
 .btn-secundary{
@@ -76,16 +75,18 @@ background: linear-gradient(90deg, #e74d00 21%, #ff5500 100%);
 }
 
 .btn-secundary:hover{
-transition : 1000ms;
-padding: 15px 50px;
-transform : translateY(-0px);
-border: solid #ff5500 1px;  
-color: #ffffff;
-border: solid 1px #fff5f0cc;
-background: linear-gradient(90deg, #e74d00 21%, #ff5500 100%);
-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.060);
+  transition : 1000ms;
+  padding: 15px 50px;
+  transform : translateY(-0px);
+  border: solid #ff5500 1px;  
+  color: #ffffff;
+  border: solid 1px #fff5f0cc;
+  background: linear-gradient(90deg, #e74d00 21%, #ff5500 100%);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.060);
 }
 
+
+/* responsivo*/
 
 @media (max-width: 800px) {
   .botao {
@@ -100,5 +101,9 @@ box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.060);
 
   .container {
     padding: 0px 30px;
+  }
+
+  .titulo-bg {
+    padding-top: 40px;
   }
 }

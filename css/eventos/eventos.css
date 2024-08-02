@@ -1,0 +1,38 @@
+.eventos-bg {
+  padding: 60px 20px 60px 20px;
+}
+
+.eventos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.eventos-card {
+    color: var(--color-5);
+
+}
+
+.eventos-card img{
+    margin-bottom: 15px;    
+}
+
+.eventos-card h4 {
+   margin-bottom: 10px;   
+}
+
+@media (max-width: 800px) {
+    .eventos {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+@media (max-width: 500px) {
+    .eventos {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
