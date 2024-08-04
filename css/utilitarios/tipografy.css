@@ -3,7 +3,7 @@
 }
 
 .font-2-xs {
-  font: 400 0.875rem/1.43 "Ubuntu", sans-serif;
+  font: 400 0.875rem/1.43 "Poppins", sans-serif;
 }
 
 .font-1-s {
@@ -11,7 +11,7 @@
 }
 
 .font-2-s {
-  font: 400 1rem/1.5 "Ubuntu", sans-serif;
+  font: 400 1rem/1.5 "Poppins", sans-serif;
 }
 
 .font-1-m,
@@ -24,7 +24,7 @@
 }
 
 .font-2-m {
-  font: 500 1.125rem/1.35 "Ubuntu", sans-serif;
+  font: 500 1.125rem/1.35 "Poppins", sans-serif;
 }
 
 .font-1-l {
@@ -33,7 +33,7 @@
 
 .font-2-l,
 .font-2-l-b {
-  font: 400 1.5rem/1.5 "Ubuntu", sans-serif;
+  font: 400 1.5rem/1.5 "Poppins", sans-serif;
 }
 
 .font-2-l-b {
@@ -46,7 +46,7 @@
 }
 
 .font-2-xl {
-  font: 500 2rem/1.25 "Ubuntu", sans-serif;
+  font: 500 2rem/1.25 "Poppins", sans-serif;
 }
 
 .font-1-xxl {

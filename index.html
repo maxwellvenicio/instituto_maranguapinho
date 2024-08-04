@@ -28,18 +28,23 @@
 
   <!--header-->
   <section class="header-bg">
-    <header class="header container">
-      <a href="./">
-      <img src="./img/logo-instituto.png" alt="logo-instituto">
-      </a>
+    <header id="header" class="header container">
+
+      <a id="logo" href="./"><img src="./img/logo-instituto.png" alt="logo-instituto"></a>
       
-      <nav id="menu" class="header-menu">
+      <nav id="nav"> 
+          <button id="btn-mobile" aria-label="Abrir Menu" aria-controls="menu" aria-haspopup="true" aria-expanded="false">
+             <span id="hamburguer"></span>
+          </button>
+
+          <ul id="menu" role="menu" class="header-menu">
             <li><a href="./">Home</a></li>
             <li><a href="./instituto.html">Instituto</a></li>
             <li><a href="./projetos.html">Projetos</a></li>
             <li><a href="./editais.html">Editais</a></li>
             <li><a href="./eventos.html">Imprensa</a></li>
             <li><a href="./contato.html">Contato</a></li>
+          </ul>
       </nav>
 
     </header>

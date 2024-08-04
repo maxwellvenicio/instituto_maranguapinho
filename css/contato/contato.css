@@ -6,7 +6,10 @@
 .contato {
     display: flex;
     justify-content: center;
-
+    box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);  
+    border: solid 1px rgb(245, 245, 245);
 }
 
 .contato-form {
@@ -16,16 +19,13 @@
     flex-direction: column;
     border: solid 1px var(--color-2);
     border-radius: 0px 5px 5px 0px;
-    box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);
-    -webkit-box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);
-    -moz-box-shadow: 3px 3px 5px -2px rgba(0,0,0,0.1);
+
 }
 
 
 .contato-form input, textarea {
     padding: 10px;
     outline: none;
-    font-size: 20px;
     font-size: 1rem;
     border-radius: 3px;
     padding-bottom: 8px;
@@ -33,6 +33,12 @@
     background-color: var(--color-1);
     border: solid 1px var(--color-2);
 }
+
+    
+.contato-form textarea:focus ,input:focus {
+    border: solid 1px var(--color-p2);
+}
+
 
 .contato-form label {
     padding: 10px;
@@ -55,10 +61,7 @@
     color: var(--color-0);
     display: flex;
     flex-direction: column;
- 
     border-radius: 5px 0px 0px 5px;
-
-
 }
 
 .contato-dados ul {
@@ -73,4 +76,14 @@
 
 .contato-dados li i {
     margin-right: 5px;
+    
 }
+
+
+/*reponsivo*/
+@media (max-width: 600px) {
+
+    .contato {
+        flex-direction: column;
+    }
+  }
