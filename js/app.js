@@ -1,3 +1,32 @@
+
+//menu mobile --------------------------------------------------------
+const btnMobile = document.getElementById("btn-mobile");
+
+//funcao para adicionar e remover a class active
+function toggleMenu (event){
+    console.log("Função toggleMenu chamada");
+    if(event.type === "touchstart") event.preventDefault(); // verifica se o evento é touch
+    const navMenu = document.getElementById("nav");
+    navMenu.classList.toggle("active");
+
+    const active = nav.classList.contains('active'); //verifica se no nav existe a class active ou não; 
+    event.currentTarget.setAttribute("aria-expanded", active); //setando o atributo "true" quando expandido
+
+    //alterar o atributo "Abrir menu" para "Fechar menu" no aria-label
+    if (active) {
+        event.currentTarget.setAttribute("aria-label", "Fechar Menu");
+    } else {
+        event.currentTarget.setAttribute("aria-label", "Abrir Menu");   
+    }
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
+
+
+////////////////////////////
+
+
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 const carouselInner = document.querySelector('.carousel-inner');
@@ -54,26 +83,3 @@ setInterval(() => {
 }, 3000);
 
 
-//menu mobile --------------------------------------------------------
-
-const btnMobile = document.getElementById("btn-mobile");
-
-//funcao para adicionar e remover a class active
-function toggleMenu (event){
-    if(event.type === "touchstart") event.preventDefault(); // verifica se o evento é touch
-    const navMenu = document.getElementById("nav");
-    navMenu.classList.toggle("active");
-
-    const active = nav.classList.contains('active'); //verifica se no nav existe a class active ou não; 
-    event.currentTarget.setAttribute("aria-expanded", active); //setando o atributo "true" quando expandido
-
-    //alterar o atributo "Abrir menu" para "Fechar menu" no aria-label
-    if (active) {
-        event.currentTarget.setAttribute("aria-label", "Fechar Menu");
-    } else {
-        event.currentTarget.setAttribute("aria-label", "Abrir Menu");   
-    }
-}
-
-btnMobile.addEventListener("click", toggleMenu);
-btnMobile.addEventListener("touchstart", toggleMenu);
