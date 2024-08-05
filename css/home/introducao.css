@@ -25,6 +25,8 @@
   position: absolute;
   top: 410px;
 }
+
+/*reponsivo*/
 @media (max-width: 1200px) {
 
   .introducao-button {
@@ -42,13 +44,33 @@
   .introducao-titulo {
     top: 235px;
   }
-
-  .introducao-button {
-    top: 500px;
-  }
   
   .introducao-subtitle {
     top: 390px;
   }
+
+  .introducao-button {
+    top: 500px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .banner-01 {
+    height: 500px;
+  }   
+
+  .introducao-titulo {
+    top: 200px;
+  }
+
+  .introducao-subtitle {
+    top: 350px;
+  }
+
+  .introducao-button {
+    top: 450px;
+  }
+
 }
 

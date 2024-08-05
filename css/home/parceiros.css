@@ -35,6 +35,9 @@
   border-top: 2px solid var(--color-2);
 }
 
+
+/*reponsivo*/
+
 @media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
@@ -50,5 +53,16 @@
   }
   .parceiros li:nth-child(odd) {
     border-left: none;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .parceiros {
+    padding: 40px 0px;
+  }
+
+  .parceiros ul {
+    max-width: 450px;
   }
 }

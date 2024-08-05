@@ -55,6 +55,8 @@
   padding-top: 10px;
 }
 
+/*reponsivo*/
+
 @media (max-width: 1330px) {
    .avaliacoes {
     grid-template-columns: 1fr 1fr;

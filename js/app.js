@@ -1,3 +1,12 @@
+// variaveis slide
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+const carouselInner = document.querySelector('.carousel-inner');
+const items = document.querySelectorAll('.carousel-item');
+let itemsToShow = 3; // Definido inicialmente para 3 itens
+let index = 0;
+
+
 
 //menu mobile --------------------------------------------------------
 const btnMobile = document.getElementById("btn-mobile");
@@ -24,19 +33,10 @@ btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 
 
-////////////////////////////
-
-
-const prev = document.querySelector('.prev');
-const next = document.querySelector('.next');
-const carouselInner = document.querySelector('.carousel-inner');
-const items = document.querySelectorAll('.carousel-item');
-let itemsToShow = 3; // Definido inicialmente para 3 itens
-let index = 0;
-
+//SLIDE ----------------------------------------------------------------------------------------
 // Função para atualizar o número de itens a serem mostrados com base na largura da janela
 function updateItemsToShow() {
-    if (window.innerWidth <= 500) {
+    if (window.innerWidth <= 600) {
         itemsToShow = 1;
     } else {
         itemsToShow = 3;
@@ -80,6 +80,6 @@ setInterval(() => {
         index = 0;
     }
     showItem(index);
-}, 3000);
+}, 4000);
 
 

@@ -1,4 +1,3 @@
-/* styles.css */
 .carousel-bg {
   padding: 80px 20px;
   background: var(--color-p1);
@@ -59,18 +58,26 @@
   left: 90%;
 }
 
+/*reponsivo*/
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+  .carousel-bg {
+    padding: 60px 20px;
+  }
+
+  .carousel {
+    max-width: 400px;
+  }
+ 
   .carousel-inner {
     display: flex;
     transition: transform 0.5s ease;
-    gap: 5px;
+    gap: 0px;
   }
 
   .carousel-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
 
 }

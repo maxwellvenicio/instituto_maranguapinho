@@ -89,14 +89,26 @@
 /* responsivo*/
 
 @media (max-width: 800px) {
-  .botao {
-    padding: 10px 20px;
+  .btn {
+    padding: 10px 22px;
     font-size: 0.900rem;
   }
 
-  .botao-secundario {
-    padding: 10px 20px;
+  .btn:hover{
+    transition : 1000ms;
+    padding: 15px 35px;
+    transform : translateY(-0px);
+  }
+
+  .btn-secundary {
+    padding: 10px 22px;
     font-size: 0.900rem;
+  }
+
+  .btn-secundary:hover {
+    transition : 1000ms;
+    padding: 15px 35px;
+    transform : translateY(-0px);
   }
 
   .container {
@@ -104,6 +116,7 @@
   }
 
   .titulo-bg {
-    padding-top: 40px;
+    padding: 40px 0px;
+
   }
 }

@@ -30,3 +30,34 @@
   margin-bottom: 32px;
   max-width: 60ch;
 }
+
+
+/*reponsivo*/
+
+@media (max-width: 800px) {
+  .projetos-bg{
+    padding-top: 40px;
+    padding-bottom: 0%;
+  }
+  
+  .projetos {
+    flex-direction: column;
+  }
+
+  .projetos img{
+    width: 100%;
+  }
+
+  .projetos h2::before {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 400px) {
+  .projetos {
+    gap: 30px;
+  }
+
+}
